@@ -9,7 +9,7 @@ import logging
 
 logging.basicConfig(filename="chess.log", level=logging.INFO,format='%(asctime)s %(levelname)8s: %(message)s',datefmt='%Y-%m-%d %H:%M:%S')
 
-sf    = '/home/pi/chess/Stockfish/src/stockfish'
+sf    = '/usr/games/stockfish'
 drofa = '/home/pi/chess/Drofa/Drofa_dev'
 lc0   = '/home/pi/chess/lc0/build/release/lc0'
 

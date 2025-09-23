@@ -35,6 +35,23 @@ The program is configured to work with:
 
 ## Installation
 
+### Quick Setup (Recommended)
+
+1. **Run the automated setup script:**
+   ```bash
+   python3 setup.py
+   ```
+   
+   This script will:
+   - Install Python dependencies (`python-chess`)
+   - Install Stockfish chess engine (if not already installed)
+   - Automatically detect Stockfish installation path
+   - Update `chess_e1_vs_e2.py` with the correct Stockfish path
+
+### Manual Installation
+
+If the automated setup doesn't work for your system, you can install manually:
+
 1. **Install Python dependencies:**
    ```bash
    pip install python-chess
